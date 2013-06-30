@@ -1,0 +1,52 @@
+/* 
+	CSS file especially arranged for Pygments. 
+	http://sweyla.com/themes/css/Sweyla766661.css
+*/
+
+.codeblock {
+	background: #00000A;
+	color: #FFFFFF;
+}
+
+.codeblock span.selection { color: #323232; }
+.codeblock span.gp { color: #FF8A76; }
+.codeblock span.vi { color: #FF8A76; }
+.codeblock span.kn { color: #FF2C00; }
+.codeblock span.cp { color: #FFFFB7; }
+.codeblock span.caret { color: #FFFFFF; }
+.codeblock span.no { color: #FFFFB7; }
+.codeblock span.s2 { color: #FFFF76; }
+.codeblock span.nb { color: #54EF97; }
+.codeblock span.nc { color: #CE4E5D; }
+.codeblock span.nd { color: #FFFFB7; }
+.codeblock span.s { color: #FFFF76; }
+.codeblock span.nf { color: #FFFFB7; }
+.codeblock span.nx { color: #FFFFB7; }
+.codeblock span.kp { color: #FF2C00; }
+.codeblock span.nt { color: #CE4E5D; }
+.codeblock span.s1 { color: #FFFF76; }
+.codeblock span.bg { color: #00000A; }
+.codeblock span.kt { color: #FF2C00; }
+.codeblock span.support_function { color: #CFD49B; }
+.codeblock span.ow { color: #FDA473; }
+.codeblock span.mf { color: #E0FFA7; }
+.codeblock span.bp { color: #FF8A76; }
+.codeblock span.fg { color: #FFFFFF; }
+.codeblock span.c1 { color: #C2FD50; }
+.codeblock span.kc { color: #FF8A76; }
+.codeblock span.c { color: #C2FD50; }
+.codeblock span.sx { color: #FFFF76; }
+.codeblock span.kd { color: #FF2C00; }
+.codeblock span.ss { color: #E0FFA7; }
+.codeblock span.sr { color: #FFFF76; }
+.codeblock span.mo { color: #E0FFA7; }
+.codeblock span.mi { color: #E0FFA7; }
+.codeblock span.mh { color: #E0FFA7; }
+.codeblock span.o { color: #FDA473; }
+.codeblock span.si { color: #E1FF09; }
+.codeblock span.sh { color: #FFFF76; }
+.codeblock span.na { color: #FFFFB7; }
+.codeblock span.sc { color: #FFFF76; }
+.codeblock span.k { color: #FF2C00; }
+.codeblock span.se { color: #E1FF09; }
+.codeblock span.sd { color: #2C9649; }

@@ -1,0 +1,16 @@
+---
+layout: post
+title: Categories
+---
+<!-- categories -->	
+{% for category in site.categories %}
+<div class="box">
+	<h3>{{ category | first }}<a name="{{ category | first | cgi_escape }}"></a></h3>
+	<ul class="postList">	
+	{% for posts in category %}
+      {% for post in posts %}
+		<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} ,   </a>						
+	{% endfor %}{% endfor %}
+	</ul>
+</div>				
+{% endfor %}
