@@ -84,11 +84,12 @@ ul {
 }
 
 #banner {
-	position: relative;
 	padding: 15px;
 	height: 212px;
-	width: 1124px;
-	margin: 10px 0 0 0;
+	width: 1075px;
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
 	background: #ffffff;
 	border-bottom: solid 1px #c0c0c0;
 }
@@ -117,9 +118,9 @@ ul {
 }
 
 #content {
-	width: 500px;
-	margin: 0px 28px 0 312px;
-	padding: 28px;
+	width: 550px;
+	margin: 0px 10px 0 300px;
+	padding: 10px;
 	background: #ffffff;
 	border-bottom: solid 1px #c0c0c0;
 }
@@ -312,14 +313,16 @@ font-family: 'Montserrat Alternates', sans-serif;}
 	padding: 4px;
 }
 
+
 #sidebar1 {
-	width: 232px;
+	width: 270px;
 	float: left;
-	padding: 28px;
+	padding: 8px;
 	background: #ffffff;
 	color: #474747;
 	border-bottom: solid 1px #c0c0c0;
 }
+
 
 #sidebar1 h2, #sidebar1 h3, #sidebar1 h4 {
 	color: #000;
@@ -340,9 +343,9 @@ font-family: 'Montserrat Alternates', sans-serif;}
 }
 
 #sidebar2 {
-	width: 232px;
+	width: 270px;
 	float: right;
-	padding: 28px;
+	padding: 10px;
 	background: #ffffff;
 	color: #474747;
 	border-bottom: solid 1px #c0c0c0;
