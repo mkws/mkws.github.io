@@ -85,8 +85,8 @@ ul {
 
 #banner {
 	padding: 15px;
-	height: 212px;
-	width: 1075px;
+	height: 220px;
+	width: 1000px;
 	margin-top: 10px;
 	margin-left: auto;
     margin-right: auto;
@@ -100,9 +100,9 @@ ul {
 }
 
 #box1 {
-	width: 500px;
+	width: 560px;
 	overflow: hidden;
-	margin: 0px 0 24px 0;
+	margin: 0px 0 0px 0;
 }
 
 #box2 {
@@ -118,8 +118,8 @@ ul {
 }
 
 #content {
-	width: 550px;
-	margin: 0px 10px 0 300px;
+	width: 585px;
+	margin: 0px 10px 0 270px;
 	padding: 10px;
 	background: #ffffff;
 	border-bottom: solid 1px #c0c0c0;
@@ -202,7 +202,7 @@ ul {
 #logo {
 	text-align: right;
 	position: relative;
-	margin: -14px auto;
+	margin: -14px 60px;
 	height: 98px;
 	line-height: 98px;
 }
@@ -262,10 +262,10 @@ font-family: 'Montserrat Alternates', sans-serif;}
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 1180px;
+	width: 1050px;
 	height: 30px;
 	line-height: 30px;
-	margin: 25px 0 0 0;
+	margin: 25px 0px 0px 60px;
 	background: #1144c5;
 	font-size: 1.5em;
 	font-family: "PT Sans Narrow", sans-serif;
@@ -315,7 +315,7 @@ font-family: 'Montserrat Alternates', sans-serif;}
 
 
 #sidebar1 {
-	width: 270px;
+	width: 245px;
 	float: left;
 	padding: 8px;
 	background: #ffffff;
