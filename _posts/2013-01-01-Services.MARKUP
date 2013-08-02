@@ -2,7 +2,7 @@
 layout: default
 title: Services
 ---
-Vaccinations<br>
+<b><h3>Vaccinations<br>
 Surgery<br>
 Anesthesia<br>
 Pharmacy<br>
@@ -12,4 +12,4 @@ Annual Physicals<br>
 Diagnostic Laboratory<br>
 Micro-chipping<br?
 Hill’s Prescription Diets<br>
-Special order dog/cat food
+Special order dog/cat food</b></h3>
