@@ -16,7 +16,7 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>Reverse Obscurity by FCT</title>
+		<title>Wells Dog and Cat Hospital, Southern Maine</title>
         <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" type="text/css" />
         <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -113,14 +113,13 @@
 					<a href="#"><img src="/images/SM/SM-42.jpg"></a> 
 					<a href="#"><img src="/images/SM/SM-43.jpg"></a> 
 					<a href="#"><img src="/images/SM/SM-44.jpg"></a> 
-					<a href="#"><img src="/images/facebook/Red0001.JPG"></a> 
-					<a href="#"><img src="/images/SM/SM-44.jpg"></a>  
-					<a href="#"><img src="/images/SM/SM-43.jpg"></a> 						
+					<a href="#"><img src="/images/SM/SM-45.jpg"></a> 
+					<a href="#"><img src="/images/SM/SM-46.jpg"></a>  
 					</div>
 					
 					<div id="sidebar2">
 						<h2>Welcome!</h2>
-						<p><b>Wells Dog and Cat Hospital</b> is dedicated to providing quality medical and surgical service to companion animals.  Our goal is to enable and assist our patients to live long healthy and happy lives. <br> <b>Emery Santerre DVM</b> has over 30 years experience treating dogs and cats in Southern Maine.  He has a loyal following and is always pleased to meet new pets and clients.  Our <a href="/staff.html">staff</a>, all enthusiastic pet owners themselves, have many years of experience in animal health care.  They are happy to greet you and facilitate your requests.  We pride ourselves on prompt care and attention to your needs.</p>
+						<p><b>Wells Dog and Cat Hospital</b> is dedicated to providing quality medical and surgical service to companion animals.  Our goal is to enable and assist our patients to live long healthy and happy lives. <br> <b>Emery Santerre DVM</b> has over 30 years experience treating dogs and cats in Southern Maine.  He has a loyal following and is always pleased to meet new pets and clients.  Our <a href="/2013/01/01/Staff.html">staff</a>, all enthusiastic pet owners themselves, have many years of experience in animal health care.  They are happy to greet you and facilitate your requests.  We pride ourselves on prompt care and attention to your needs.</p>
 <br><br>
 <b>Wells Dog and Cat Hospital</b><br>
 <b>418 Sanford Road</b><br>
@@ -138,7 +137,7 @@ Sunday    9am - 10am (boarders)<br>
 Join us on <a href="https://www.facebook.com/pages/Wells-Dog-and-Cat-Hospital/379096880346?ref=ts&fref=ts"target="_blank">Facebook</a><br>
 Find us on <a href="https://plus.google.com/113066442326208265180/about?gl=us&hl=en"target="_blank">Google</a><br><br>
 
-<img src="/images/bb.jpg"width="200" height="100"/>
+<img src="/images/bb.jpg"width="200" height="100"/><br>
 <a href="http://www.bbb.org/boston/business-reviews/veterinarians/wells-dog-cat-hospital-in-wells-me-122601/
 "target="_blank">Member Better Business Bureau </a><br><br>	<br>	
 Have we earned 5 stars?<br>							    
@@ -161,7 +160,18 @@ Have we earned 5 stars?<br>
 					
 					<div id="content">
 						<div id="box1">
-							<p>{{ content }}</p>
+							<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <br><h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    
+  </p>
+  <div class="content">
+    <p>{{ post.excerpt }}</p>
+  </div>
+{% endfor %}
+							
+							
 						</div>
 						
 						<br class="clear" />
